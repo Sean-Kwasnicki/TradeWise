@@ -2,12 +2,11 @@
 # Feature List for TradeWise Algorithm Building Site
 
 ## Home Page
-- **Overview**
-  - Display company name and motto.
-  - Show mission statement.
-  - Brief introduction to site features.
-  - Quick links to main sections.
-  - Quick reference videos for new users to learn the site
+- Display company name and motto.
+- Show mission statement.
+- Brief introduction to site features.
+- Quick links to main sections.
+- Quick reference videos for new users to learn the site
 
 ## Portfolio
 
@@ -151,10 +150,3 @@
 - The export should generate code compatible with the Interactive Brokers API or other supported platforms.
 - Users should be able to download the generated code as a file or copy it to the clipboard.
 - The export process should include instructions on how to integrate the algorithm with the external platform.
-
-## Chat Feature (Bonus Feature)
-
-### Chat with Support
-- Users should be able to chat with customer support for assistance.
-- Users should see an option to start a chat session on the help or support page.
-- Users should be able to send messages and receive responses from support agents in real-time.

@@ -18,6 +18,10 @@
 - **DELETE /api/users/:id**
   - Description: Deletes a specific user by ID.
 
+### Get All Users
+- **GET /api/users**
+  - Description: Retrieves a list of all users.
+
 ## Portfolios
 
 ### Create Portfolio
