@@ -1,4 +1,4 @@
-# API Routes Outline
+# TradeWise API Routes Outline
 
 ## Users
 
@@ -31,6 +31,10 @@
 ### Get Portfolio
 - **GET /api/portfolios/:id**
   - Description: Retrieves details of a specific portfolio by ID.
+
+### Get All Portfolios
+- **GET /api/portfolios**
+  - Description: Retrieves a list of all portfolios.
 
 ### Update Portfolio
 - **PUT /api/portfolios/:id**
@@ -70,7 +74,6 @@
 - **GET /api/stocks/:stock_id/historical_prices**
   - Description: Retrieves historical price data for a specific stock.
 
-
 ## Watchlists
 
 ### Create Watchlist
@@ -80,6 +83,10 @@
 ### Get Watchlist
 - **GET /api/watchlists/:id**
   - Description: Retrieves details of a specific watchlist by ID.
+
+### Get All Watchlists
+- **GET /api/watchlists**
+  - Description: Retrieves a list of all watchlists.
 
 ### Update Watchlist
 - **PUT /api/watchlists/:id**
@@ -113,6 +120,10 @@
 - **GET /api/algorithms/:id**
   - Description: Retrieves details of a specific algorithm by ID.
 
+### Get All Algorithms
+- **GET /api/algorithms**
+  - Description: Retrieves a list of all algorithms.
+
 ### Update Algorithm
 - **PUT /api/algorithms/:id**
   - Description: Updates details of a specific algorithm by ID.
@@ -120,7 +131,6 @@
 ### Delete Algorithm
 - **DELETE /api/algorithms/:id**
   - Description: Deletes a specific algorithm by ID.
-
 
 ## Backtests
 
@@ -131,6 +141,10 @@
 ### Get Backtest
 - **GET /api/backtests/:id**
   - Description: Retrieves details of a specific backtest by ID.
+
+### Get All Backtests
+- **GET /api/backtests**
+  - Description: Retrieves a list of all backtests.
 
 ### Update Backtest
 - **PUT /api/backtests/:id**
